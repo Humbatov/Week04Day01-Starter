@@ -1,0 +1,172 @@
+/* common classes */
+.divHeight{
+	height:100%;
+}
+
+.mainTextColor {
+	color: white;
+}
+
+/*    Main     */
+#main{
+	background-image: url("../image/header.jpg");
+	background-size: cover;
+
+}
+#main .container-fluid{
+	padding: 0px;
+}
+#main .navbar{
+	border-radius: 0px;
+}
+
+#main h3 {
+	font-style: italic;
+	font-size: 3em;
+}
+#main h1 {
+	font-size: 5em;
+	font-weight: 700;
+}
+#main .btn {
+	border-radius: 0;
+	padding: 20px;
+}
+#main .content{
+	padding: 50px 0;
+}
+
+/*    Services     */
+#services {
+}
+
+#services .mainColor{
+background-color: white;
+}
+#services h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#services i{
+	color: white;
+	background-color: #FED136;
+	border-radius: 100%;
+	padding:30px;
+}
+
+#services h6 {
+	padding: 20px 0;
+	font-style: italic;
+
+}
+#services .content {
+	padding: 50px 0;
+}
+
+
+/*    Portofolio     */
+#portfolio {
+	
+}
+#portfolio .mainColor{
+	background-color: lightgray;
+}
+
+#portfolio .content {
+	padding: 50px 0;
+}
+
+#portfolio h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#portfolio h6 {
+	padding: 20px 0;
+	font-style: italic;
+}
+
+/*    About     */
+
+
+/*     Team Section     */
+#team{
+    background: #eee;
+    padding: 150px 0;
+}
+.subHeader{
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+#team h4{
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+#team p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color:#777;
+    
+}
+.socIcon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: #222;
+}
+#team a:hover{
+    background-color: yellow;
+}
+#team .col-md-4{
+    padding-bottom: 50px;
+}
+#team .col-md-4 img{
+    margin: 0 auto;
+    border: 4px solid white;
+}
+
+/*     Sponsors     */
+#sponsors .col-md-3 img{
+    margin: 50px auto;
+}
+
+/*    Contact Section     */
+#contact{
+    background-color: #222;
+    background-image: url(../image/map-image.png);
+    background-size: cover;
+    padding: 150px 0;
+}
+.btn-lg{
+    padding: 20px 40px;
+    font-weight: 600;
+}
+#contact textarea{
+    height: 216px;
+}
+#contact .form-group input.form-control{
+    height: auto;
+    padding: 20px;
+}
+#contact .mainColor{
+	background-color: gray;
+}
+
+/*     Footer     */
+
+#footer{
+    padding: 20px 0;
+}
+.footerLink{
+    color: #fdd535;
+    font-weight: 600;
+}
+#footer span{
+    line-height: 40px;
+    color: #333;
+}
